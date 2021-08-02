@@ -2,26 +2,6 @@
     --custom-color: #32a852;
 }
 
-@media screen and (max-width: 992px) {
-    header {
-      background: #772014;
-    }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    header {
-      background-color: #bb8588;
-    }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    header {
-      background-color: #8ac4ff;
-    }
-  }
-
 
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -62,4 +42,29 @@ header li {
 
 .project-img {
     width: 20%;
+
+}
+
+.project-img:hover {
+  box-shadow: 0 0 10px #ccc;
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    background-color: pink;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    background-color: #bb8588;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  header {
+    background-color: cyan;
+  }
 }
