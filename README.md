@@ -1,4 +1,9 @@
 # Personal Portfolio
+Personal Portfolio Table of Concents
+. About Me
+. Work
+. Contact Me
+. Resume
 
 # URL
 Deployed repo URL: https://tpham912.github.io/Personal-Portfolio/
