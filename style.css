@@ -1,92 +1,94 @@
 :root {
-    --custom-color: #a4d6e2;
-    --text-align: center;
+  --custom-color: #a4d6e2;
+  --text-align: center;
 }
-
 
 body {
-    background-image: url(Pastel-Colors-Background.jpg);
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  background-image: url(Pastel-Colors-Background.jpg);
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+.main-header {
+  display: flex;
+  flex-direction: column;
 }
-
 
 #menu {
-    display: flex;
-    justify-content: flex-end;
-
+  display: flex;
 }
 
-header li {
-    margin-right: 100px;  
-    list-style-type: none;
-    width: 100%;
+#menu li {
+  display: flex;
+  flex: 1;
 }
 
-#work { 
+.about-me-content {
+}
+
+.about-me-content p {
+}
+
+.about-me-content .profile-pic {
+  height: 250px;
+  margin-right: 1em;
+  float: left;
+}
+
+#work {
   display: flex;
   justify-content: center;
 }
 
 .project {
   /* position: relative; */
-
 }
 
 .project-title {
-    color: white;
-    /* position: absolute; */
-    bottom: 0px;
-    left: 0px;
-    background-color: var(--custom-color);
-  
+  color: white;
+  /* position: absolute; */
+  bottom: 0px;
+  left: 0px;
+  background-color: var(--custom-color);
 }
 
 hr.line1 {
-    width: 200%;
-    height: 2px;
-    border: 0;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    background-color: grey;
- 
- }
- h1 { 
-    text-align: var(--text-align);
- }
+  height: 2px;
+  border: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background-color: grey;
+}
+h1 {
+  text-align: var(--text-align);
+}
 
- h2 {
-    text-align: var(--text-align);
- }
+h2 {
+  text-align: var(--text-align);
+}
 
 h3 {
-    text-align: var(--text-align);
+  text-align: var(--text-align);
 }
 
-h4 { 
-    text-align: var(--text-align);
+h4 {
+  text-align: var(--text-align);
 }
 .project-img {
-    /*display: flex;*/
-    flex-wrap: wrap;
-    padding: 0;
-    width: 20%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    justify-content: space-between;
-
+  /*display: flex;*/
+  flex-wrap: wrap;
+  padding: 0;
+  width: 20%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-content: space-between;
 }
 
 .project-img:hover {
   box-shadow: 0 0 10px #ccc;
   opacity: 0.3;
-  width: 20%;
 }
 
 ul {
@@ -107,21 +109,25 @@ li a {
   padding: 15px;
 }
 
-
-@media screen and (max-width: 1165px) {
-    header {display:block;
-  }
- 
-
-@media screen and (max-width: 600px) {
-  header {
-    background-color: #bb8588;
+@media screen and (max-width: 1000px) {
+  .main-header {
+    background-color: pink;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .main-header {
+    background-color: #bb8588;
+  }
+
+  .about-me-content .profile-pic {
+    width: 100%;
+    margin: 0;
+  }
+}
 
 @media screen and (max-width: 500px) {
-  header {
+  .main-header {
     background-color: var(--custom-color);
   }
 }
