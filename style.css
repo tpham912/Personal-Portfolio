@@ -108,11 +108,11 @@ li a {
   padding: 15px;
 }
 
-@media screen and (max-width: 1000px) {
-  header {
-    background-color: pink;
+
+@media screen and (max-width: 1165px) {
+    header {display:block;
   }
-}
+ 
 
 @media screen and (max-width: 600px) {
   header {
