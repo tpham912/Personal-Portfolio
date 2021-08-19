@@ -12,4 +12,4 @@ Deployed repo URL: https://tpham912.github.io/Personal-Portfolio/
 
 GitHub URL: https://github.com/tpham912/Personal-Portfolio
 
-<img src="portfoliowebsitescreenshot.png" alt="Portfolio-Layout">
+<img src="tips-icon-png-21.jpg" alt="Portfolio-Layout">
