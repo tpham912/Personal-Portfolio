@@ -1,10 +1,10 @@
 # Personal Portfolio
 
 My personal portfolio contains 
-. About Me
-. Work 
-. Contact Me
-. Resume
+# About Me
+# My Projects 
+# Contact Me
+# Resume
 
 # URL
 Deployed repo URL: https://tpham912.github.io/Personal-Portfolio/
