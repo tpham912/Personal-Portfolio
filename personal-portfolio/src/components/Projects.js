@@ -1,7 +1,7 @@
 import React from "react";
 import password from "../assets/images/password.png";
 import workdaysched from "../assets/images/workdaysched.png";
-import weatherapp from "../assets/images/workdaysched.png";
+import weatherapp from "../assets/images/weatherapp.png";
 
 
 const Projects = () => {

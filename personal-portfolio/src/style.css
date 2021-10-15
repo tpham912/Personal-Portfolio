@@ -4,9 +4,20 @@
 }
 
 body {
-  /* background-image: url(Pastel-Colors-Background.jpg); */
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
+  background-color: rgb(237, 237, 237);
+}
+
+#background-img img {
+  width: 100%;
+}
+
+#background-img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }
 
 .main-header {
@@ -22,7 +33,7 @@ body {
 
 #menu li {
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   flex: 1;
 }
 
@@ -31,7 +42,6 @@ body {
   margin-right: 1em;
   float: left;
 }
-
 
 p {
   line-height: 2;
@@ -46,7 +56,6 @@ p {
 .project {
   display: flex;
   flex-direction: column;
-  
 }
 
 .project-title {
@@ -115,6 +124,49 @@ li a {
   padding: 15px;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-inputs {
+  display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.form-label {
+  margin: 2vh auto;
+}
+
+.form-input {
+
+}
+
+.form p {
+  margin: auto;
+
+}
+
+.btn-Submit {
+  margin: 2vh auto;
+}
+
+.btn-Home {
+  margin: 0 auto;
+  display: block;
+
+}
+
+.btn-Contact {
+  position: relative;
+  left: 910px;
+  top: 350px;
+  font-size: 18px;
+
+}
+
 @media screen and (max-width: 1000px) {
   .main-header {
     background-color: pink;
@@ -124,12 +176,10 @@ li a {
     display: block;
   }
 
-
   .contact-list {
     display: block;
   }
 }
-
 
 @media screen and (max-width: 600px) {
   .main-header {
