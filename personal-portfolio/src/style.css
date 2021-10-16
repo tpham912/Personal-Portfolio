@@ -9,6 +9,11 @@ body {
   background-color: rgb(237, 237, 237);
 }
 
+
+.about-me-content {
+  background-color: rgba(237 , 237, 237, 0.829);
+}
+
 #background-img img {
   width: 100%;
 }
@@ -18,6 +23,7 @@ body {
   width: 100vw;
   height: 100vh;
   z-index: -1;
+  top: 0;
 }
 
 .main-header {
@@ -27,8 +33,8 @@ body {
 
 #menu {
   display: flex;
-  flex-wrap: wrap;
-  max-width: 960px;
+  flex-wrap: nowrap;
+  margin-right: 8vw;
 }
 
 #menu li {
@@ -131,9 +137,8 @@ li a {
 
 .form-inputs {
   display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .form-label {
@@ -141,12 +146,10 @@ li a {
 }
 
 .form-input {
-
 }
 
 .form p {
   margin: auto;
-
 }
 
 .btn-Submit {
@@ -156,15 +159,13 @@ li a {
 .btn-Home {
   margin: 0 auto;
   display: block;
-
 }
 
 .btn-Contact {
-  position: relative;
-  left: 910px;
-  top: 350px;
+  display: block;
+  margin: 8vh auto 1vh;
   font-size: 18px;
-
+  padding: 8px;
 }
 
 @media screen and (max-width: 1000px) {
