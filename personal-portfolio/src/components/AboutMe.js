@@ -1,15 +1,11 @@
 import React from "react";
 import profile from '../assets/images/myself.jpg';
-import backgroundImage from '../assets/images/white.jpg';
 
 const AboutMe = () => {
 
     return (
         <>
-        <div id="background-img"><img src={backgroundImage}/> 
-        
-        </div>
-          
+              
         <img src={profile} alt="profile-pic" class="profile-pic"></img>
     
         <section id="about">

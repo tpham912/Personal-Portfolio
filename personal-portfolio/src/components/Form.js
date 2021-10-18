@@ -11,6 +11,7 @@ const Form = () => {
   return (
     <>
           <ContactForm submitForm={submitForm} />
+          <hr class="line1"></hr>
           <Link to='/Personal-Portfolio'>
                 <button className="btn-Home">Home</button>
                 </Link>

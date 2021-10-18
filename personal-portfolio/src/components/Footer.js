@@ -1,13 +1,11 @@
 import React from "react";
 
-const Contact = () => {
+function Footer() {
   return (
     <div>
-      <hr class="line1"></hr>
-
       <section id="contact">
         <div class="info">
-          <h3>Contact Me</h3>
+          <h3>Professional Links</h3>
           <ul>
             <li>
               <a href="https://github.com/tpham912">GitHub</a>
@@ -21,7 +19,6 @@ const Contact = () => {
           </ul>
         </div>
       </section>
-
       <section>
         <div class="info">
           <h4>Resume</h4>
@@ -32,6 +29,6 @@ const Contact = () => {
       </section>
     </div>
   );
-};
+}
 
-export default Contact;
+export default Footer;
