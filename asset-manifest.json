@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.21a5cc47.chunk.css",
-    "main.js": "/Personal-Portfolio/static/js/main.d732b270.chunk.js",
-    "main.js.map": "/Personal-Portfolio/static/js/main.d732b270.chunk.js.map",
+    "main.css": "/Personal-Portfolio/static/css/main.5b2c098f.chunk.css",
+    "main.js": "/Personal-Portfolio/static/js/main.f71f663c.chunk.js",
+    "main.js.map": "/Personal-Portfolio/static/js/main.f71f663c.chunk.js.map",
     "runtime-main.js": "/Personal-Portfolio/static/js/runtime-main.b5b6e1ec.js",
     "runtime-main.js.map": "/Personal-Portfolio/static/js/runtime-main.b5b6e1ec.js.map",
     "static/js/2.633a5577.chunk.js": "/Personal-Portfolio/static/js/2.633a5577.chunk.js",
@@ -10,10 +10,13 @@
     "static/js/3.6b8ea7ff.chunk.js": "/Personal-Portfolio/static/js/3.6b8ea7ff.chunk.js",
     "static/js/3.6b8ea7ff.chunk.js.map": "/Personal-Portfolio/static/js/3.6b8ea7ff.chunk.js.map",
     "index.html": "/Personal-Portfolio/index.html",
-    "static/css/main.21a5cc47.chunk.css.map": "/Personal-Portfolio/static/css/main.21a5cc47.chunk.css.map",
+    "static/css/main.5b2c098f.chunk.css.map": "/Personal-Portfolio/static/css/main.5b2c098f.chunk.css.map",
     "static/js/2.633a5577.chunk.js.LICENSE.txt": "/Personal-Portfolio/static/js/2.633a5577.chunk.js.LICENSE.txt",
+    "static/media/fitnesstracker.6e67ed6e.png": "/Personal-Portfolio/static/media/fitnesstracker.6e67ed6e.png",
+    "static/media/hw1.ddaff47b.png": "/Personal-Portfolio/static/media/hw1.ddaff47b.png",
     "static/media/myself.ec283de2.jpg": "/Personal-Portfolio/static/media/myself.ec283de2.jpg",
     "static/media/password.db32bed1.png": "/Personal-Portfolio/static/media/password.db32bed1.png",
+    "static/media/techblog.f53e4a1d.png": "/Personal-Portfolio/static/media/techblog.f53e4a1d.png",
     "static/media/weatherapp.8fe864e4.png": "/Personal-Portfolio/static/media/weatherapp.8fe864e4.png",
     "static/media/white.068cc9c0.jpg": "/Personal-Portfolio/static/media/white.068cc9c0.jpg",
     "static/media/workdaysched.cae6e81d.png": "/Personal-Portfolio/static/media/workdaysched.cae6e81d.png"
@@ -21,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.b5b6e1ec.js",
     "static/js/2.633a5577.chunk.js",
-    "static/css/main.21a5cc47.chunk.css",
-    "static/js/main.d732b270.chunk.js"
+    "static/css/main.5b2c098f.chunk.css",
+    "static/js/main.f71f663c.chunk.js"
   ]
 }
