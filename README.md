@@ -21,7 +21,7 @@ My personal portfolio contains the following sections
 
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [React(https://reactjs.org/)
+- [React](https://reactjs.org/)
 
 # Links
 
